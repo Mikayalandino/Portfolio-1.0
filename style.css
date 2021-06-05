@@ -11,7 +11,11 @@ body{
     transition: 0.4s;
 }
  */
- 
+
+.conocimientos{
+    background-color: #F6F7FB;
+}
+
 .Mika{
     color: #11AACB;
 }
