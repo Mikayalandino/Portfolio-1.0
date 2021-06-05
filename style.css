@@ -44,11 +44,24 @@ blockquote{
     font-style: 50px;
 } */
 
-footer{
-    background-color: #11AACB;
-}
-
 button{
     background-color: #11AACB;
+    
+}
+
+footer{
+    height: 300px;
     color: #FBFFFF;
+    background-color: #11AACB;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+
+.links{
+    color: #FBFFFF;
+    text-decoration: none;
 }
