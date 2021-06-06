@@ -185,14 +185,13 @@ blockquote{
     flex-direction: column;
 }
 
-/* .fab, .fas{
-    color: #11AACB; 
+.contact-box-i{
     font-size: 1.3em;
     padding-top: 0.9em;
     padding-bottom: 1em;
     padding-right: 0.5em;
 
-} */
+}
 
 .contact-box-right{
     width: 50%;
