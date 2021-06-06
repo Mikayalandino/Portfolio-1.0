@@ -161,13 +161,15 @@ blockquote{
 /* contacto */
 
 .contact-box{
-    height: 500px;
+    height: 600px;
     width: 65%;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
     display: flex;
-    padding: 50px;    
+    justify-content: center;
+    margin: 400px;
+    padding: 80px;    
 
 }
 
@@ -192,6 +194,25 @@ blockquote{
     border: none;
     border-radius: 30px;
     margin-right: 10px;
+    padding-left: 20px;
+}
+
+.section-form-email{
+    height: 40px;
+    width: 630px;
+    background-color: #F6F7FB;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+textarea{
+    border: none;
+    background-color: #F6F7FB;
+    border-radius: 30px;
+    margin-right: 10px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
