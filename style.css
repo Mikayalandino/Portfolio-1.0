@@ -160,7 +160,12 @@ blockquote{
 
 /* contacto */
 
+.section-contact-box{
+    background-color: #F6F7FB;
+    display: flex;
+    justify-content: center;
 
+}
 
 .contact-box{
     width: 65%;
@@ -170,6 +175,7 @@ blockquote{
     display: flex;
     justify-content: center;
     padding: 80px;
+    margin: 200px;
 
 }
 
