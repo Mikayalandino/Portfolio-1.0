@@ -79,6 +79,7 @@ button:hover{
 /* conocimientos */
 
 .conocimientos{
+    height: 1000px;
     background-color: #F6F7FB;
     display: flex;
     flex-direction: column;
@@ -137,6 +138,7 @@ blockquote{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
 }
 
 .section-box-all{
@@ -263,15 +265,24 @@ footer{
 
 .footer-links{
     margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .footer-icons{
+    height: 40px;
+    width: 40px;
     color: #11AACB;
     background-color: #ffffff;
     border-radius: 100%;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.5em;
+    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
