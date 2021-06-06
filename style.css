@@ -91,6 +91,12 @@ button:hover{
     color: #11AACB;
 }
 
+.section-button{
+    color: #ffffff; 
+    font-size: 16px; 
+    padding-left: 0px
+}
+
 /* conocimientos */
 
 .conocimientos{
@@ -184,31 +190,27 @@ blockquote{
     background-color: #F6F7FB;
     display: flex;
     justify-content: center;
-
 }
 
 .contact-box{
-    width: 65%;
-    background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.116);
-    border-radius: 10px;
+    height: 600px;
     display: flex;
     justify-content: center;
-    padding: 80px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 30px;
+    padding: 180px;
     margin: 200px;
-
 }
 
 .contact-box-left{
-    width: 50%;
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
 }
 
 .contact-box-i{
     font-size: 1.3em;
-    padding-top: 0.9em;
-    padding-bottom: 1em;
     padding-right: 0.5em;
     color: #11AACB
 
@@ -223,17 +225,13 @@ blockquote{
     color: #11AACB;
 }
 
-.contact-box-right{
-    width: 50%;
-}
-
-.section-form-na{
-    display: flex;
+.section-form{
+    margin-bottom: 20px;
 }
 
 .section-form-a, .section-form-n{
     height: 40px;
-    width: 300px;
+    width: 220px;
     background-color: #F6F7FB;
     border: none;
     border-radius: 30px;
@@ -244,7 +242,7 @@ blockquote{
 
 .section-form-email{
     height: 40px;
-    width: 630px;
+    width: 570px;
     background-color: #F6F7FB;
     border: none;
     border-radius: 30px;
@@ -278,6 +276,10 @@ textarea{
     margin-left: 15px;
     margin-top: 15px;
     border: none;
+}
+
+.section-contact-button:hover{
+    background-color: #11a9cba2;
 }
 
 /* footer */
