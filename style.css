@@ -81,15 +81,20 @@ button{
     align-items: center;
 }
 
+.box-icons{
+    display: flex;
+}
+
 .conocimientos-icons{
     height: 250px;
     width: 250px;
-    border: 1px solid rgba(0, 0, 0, 0.26);
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 55px;
+    margin: 15px;
 }
 
 .conocimientos-icons:hover{
