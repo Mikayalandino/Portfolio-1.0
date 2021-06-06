@@ -86,12 +86,13 @@ button{
 }
 
 .conocimientos-icons{
-    height: 250px;
+    height: 230px;
     width: 250px;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 15px;
@@ -126,7 +127,29 @@ blockquote{
 
 /* proyectos */
 
+.section-proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.section-box-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-box{
+    height: 350px;
+    width: 360px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
 /* contacto */
 
 /* footer */
