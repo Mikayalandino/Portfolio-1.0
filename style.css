@@ -160,16 +160,16 @@ blockquote{
 
 /* contacto */
 
+
+
 .contact-box{
-    height: 600px;
     width: 65%;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    margin: 400px;
-    padding: 80px;    
+    padding: 80px;
 
 }
 
