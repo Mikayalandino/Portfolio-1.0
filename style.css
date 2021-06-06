@@ -81,6 +81,20 @@ button{
     align-items: center;
 }
 
+.conocimientos-icons{
+    height: 250px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px;
+}
+
+.conocimientos-icons:hover{
+    border: 1px solid #995CEF;
+}
 
 
 /* quote */
