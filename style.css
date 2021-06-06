@@ -20,6 +20,10 @@ body{
     transition: 0.4s;
 }
 
+.header-links:hover{
+    color: #11AACB;
+}
+
 button{
     height: 40px;
     width: 170px;
@@ -297,6 +301,12 @@ footer{
     align-items: center;
     justify-content: center;
     
+}
+
+.footer-icons:hover{
+    color: #ffffff;
+    border: 1px solid white;
+    background-color: #11AACB;
 }
 
 .footer-txt{
