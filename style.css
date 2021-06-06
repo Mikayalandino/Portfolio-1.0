@@ -193,13 +193,14 @@ blockquote{
 }
 
 .contact-box{
-    height: 600px;
+    height: 620px;
     display: flex;
     justify-content: center;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 30px;
-    padding: 180px;
+    padding: 100px;
+    padding-bottom: 200px;
     margin: 200px;
 }
 
@@ -226,12 +227,14 @@ blockquote{
 }
 
 .section-form{
+    display: flex;
     margin-bottom: 20px;
 }
 
 .section-form-a, .section-form-n{
     height: 40px;
-    width: 220px;
+    width: 290px;
+    font-size: 1.2em;
     background-color: #F6F7FB;
     border: none;
     border-radius: 30px;
@@ -242,7 +245,8 @@ blockquote{
 
 .section-form-email{
     height: 40px;
-    width: 570px;
+    width: 620px;
+    font-size: 1.2em;
     background-color: #F6F7FB;
     border: none;
     border-radius: 30px;
@@ -252,6 +256,7 @@ blockquote{
 }
 
 textarea{
+    font-size: 1.3em;
     border: none;
     background-color: #F6F7FB;
     border-radius: 30px;
