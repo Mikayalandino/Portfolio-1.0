@@ -143,12 +143,17 @@ blockquote{
 .section-box{
     height: 350px;
     width: 360px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 15px;
+}
+
+.section-box:hover{
+    border: 1px solid #995CEF;
 }
 /* contacto */
 
