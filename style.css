@@ -5,21 +5,19 @@ body{
 .header{
     height: 50px;
     width: 100%;
-    border-bottom: 1px solid #0000002f;
     padding: 15px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
-    /* box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
     position: fixed;
     top: 0;
-    transition: 0.4s; */
+    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
+    transition: 0.4s;
 }
 
 button{
-    width: 150px;
+    height: 40px;
+    width: 170px;
     color: #ffffff;
     border-radius: 20px;
     padding: 10px;
@@ -44,6 +42,21 @@ a{
     padding-left: 0px;
 }
 
+.section-hola{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.img-hola{
+    height: 500px;
+    width: 700px;
+
+}
+
 .conocimientos{
     background-color: #F6F7FB;
 }
@@ -51,6 +64,7 @@ a{
 .mika{
     color: #11AACB;
 }
+
 
 .quote{
     height: 500px;
@@ -71,10 +85,6 @@ blockquote{
     font-size: 20px;
     margin: 50px 50px;
 }
-
-/* .title-someone{
-    font-style: 50px;
-} */
 
 button{
     background-color: #11AACB;
