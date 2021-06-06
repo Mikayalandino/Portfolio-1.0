@@ -195,7 +195,17 @@ blockquote{
     padding-top: 0.9em;
     padding-bottom: 1em;
     padding-right: 0.5em;
+    color: #11AACB
 
+}
+
+.contact-box-txt{
+    font-size: 22px; 
+    color: #000000;
+}
+
+.contact-box-txt:hover{
+    color: #11AACB;
 }
 
 .contact-box-right{
@@ -214,6 +224,7 @@ blockquote{
     border-radius: 30px;
     margin-right: 10px;
     padding-left: 20px;
+    outline-color: #11AACB;
 }
 
 .section-form-email{
@@ -224,6 +235,7 @@ blockquote{
     border-radius: 30px;
     margin-right: 10px;
     padding-left: 20px;
+    outline-color: #11AACB;
 }
 
 textarea{
@@ -233,6 +245,7 @@ textarea{
     margin-right: 10px;
     padding-top: 20px;
     padding-left: 20px;
+    outline-color: #11AACB;
 }
 
 .section-contact-button{
