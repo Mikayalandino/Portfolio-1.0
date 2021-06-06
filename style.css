@@ -160,33 +160,8 @@ blockquote{
 
 /* contacto */
 
-.section-contacto{
-    width: 100%;
-    background-color: #F6F7FB;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.section-contacto-box{
-    height: 700px;
-    width: 1000px;
-    background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.116);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 200px;
-    padding: 100px;
 
-}
-
-.section-contacto-left{
-    margin-right: 100px;
-}
 
 /* footer */
 
